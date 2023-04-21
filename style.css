@@ -1,0 +1,206 @@
+/* Write some CSS below */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Overpass';
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Chivo';
+  }
+  
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  h3 {
+  font-size: 22px;
+  }
+
+
+  
+  a{
+    text-decoration: none;
+  }
+
+  .banner {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+  }
+  
+  .banner p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fffffffe;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
+  
+  .btn-pink {
+    background-color: #FA9884;
+     color: white;
+     border-radius: 4px;
+     padding: 20px 50px;
+     font-size: 20px;
+     font-weight: 700;
+  }
+  
+  .btn-pink:hover{
+    opacity: 0.7;
+  }
+  
+  .container {
+    width: 900px;
+    margin: 20px auto;
+  }
+
+  .card-white {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    border-radius: 5px;
+  }
+  
+  .card-white img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  
+  .card-white:hover{
+    padding: 50px;
+  }
+
+  .card{
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+    border-radius: 5px;
+  }
+
+  .card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 250%;
+    
+  }
+
+  
+  .footer {
+    background-color: #38383A;
+    color: white;
+  }
+
+  #Socialmedia{
+    width: 30px;
+    height: 30px;
+  }
+
+
+  
+  .footer p {
+    font-size: 20px;
+  }
+  
+  .cards-inline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+  .cards-for-missions{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin-right: 325px;
+    margin-left: 310px;
+  }
+
+  .cards-for-missions div{
+    height: 200px;
+  }
+
+  .cards-for-missions div img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Breaking points */
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 680px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr;
+  }
+}
+
+.list-icon {
+  font-size: 40px;
+  color: #FA9884;
+  text-align: center;
+}
+
+.list-icon i{
+  color: white;
+}
+
+#textt{
+  font-size: 14px;
+}
+
+.list-icon li{
+  display: inline;
+}
+
+.footer{
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.list-icon{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-icon li {
+  margin: 0 20px;
+}
